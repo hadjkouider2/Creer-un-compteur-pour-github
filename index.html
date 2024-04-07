@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/css.css" />
+    <title>Compteur</title>
+  </head>
+  <body>
+    <h1>Compteur en Html</h1>
+    <div class="container">
+      <div class="column">
+        <div class="title color1">
+          <h2>CENTAINE</h2>
+        </div>
+        <div class="bouton-plus">
+          <button type="button"onclick="ajouter_centaine()">^</button>
+        </div>
+        <div class="div-number">
+          <span class="number" id="number1">100</span>
+        </div>
+        <div class="bouton-moins">
+          <button type="button" onclick="moin_centaine()">^</button>
+        </div>
+      </div>
+      <div class="column">
+        <div class="title color2">
+          <h2>DIZAINE</h2>
+        </div>
+        <div class="bouton-plus">
+          <button type="button" onclick="ajouter_dizaine()">^</button>
+        </div>
+        <div class="div-number">
+          <span class="number" id="number2">10</span>
+        </div>
+        <div class="bouton-moins">
+          <button type="button" onclick=" moin_dizaine()">^</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="title color3">
+          <h2>UNITE</h2>
+        </div>
+        <div class="bouton-plus">
+          <button type="button" onclick="ajouter_unite()">^</button>
+        </div>
+        <div class="div-number">
+          <span class="number" id="number3">0</span>
+        </div>
+        <div class="bouton-moins">
+          <button type="button" onclick=" moin_unite()">^</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/js.js"></script>
+  </body>
+</html>
